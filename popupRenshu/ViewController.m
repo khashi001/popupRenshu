@@ -24,4 +24,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)showPopupMenu:(id)sender {
+    
+    NSLog(@"showPopupMenu called.");
+    
+}
 @end

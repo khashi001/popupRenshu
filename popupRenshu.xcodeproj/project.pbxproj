@@ -15,6 +15,8 @@
 		0040428C1D29F8CE009B9702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0040428A1D29F8CE009B9702 /* LaunchScreen.storyboard */; };
 		004042971D29F8CE009B9702 /* popupRenshuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004042961D29F8CE009B9702 /* popupRenshuTests.m */; };
 		004042A21D29F8CE009B9702 /* popupRenshuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004042A11D29F8CE009B9702 /* popupRenshuUITests.m */; };
+		004042B01D29F969009B9702 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004042AF1D29F969009B9702 /* background.jpg */; };
+		004042B81D29FD6A009B9702 /* QBPopupMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 004042B71D29FD6A009B9702 /* QBPopupMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		0040429D1D29F8CE009B9702 /* popupRenshuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popupRenshuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		004042A11D29F8CE009B9702 /* popupRenshuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popupRenshuUITests.m; sourceTree = "<group>"; };
 		004042A31D29F8CE009B9702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004042AF1D29F969009B9702 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		004042B61D29FD6A009B9702 /* QBPopupMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBPopupMenu.h; sourceTree = "<group>"; };
+		004042B71D29FD6A009B9702 /* QBPopupMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBPopupMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,8 @@
 		004042701D29F8CE009B9702 = {
 			isa = PBXGroup;
 			children = (
+				004042B61D29FD6A009B9702 /* QBPopupMenu.h */,
+				004042B71D29FD6A009B9702 /* QBPopupMenu.m */,
 				0040427B1D29F8CE009B9702 /* popupRenshu */,
 				004042951D29F8CE009B9702 /* popupRenshuTests */,
 				004042A01D29F8CE009B9702 /* popupRenshuUITests */,
@@ -105,6 +112,7 @@
 				004042801D29F8CE009B9702 /* AppDelegate.m */,
 				004042821D29F8CE009B9702 /* ViewController.h */,
 				004042831D29F8CE009B9702 /* ViewController.m */,
+				004042AF1D29F969009B9702 /* background.jpg */,
 				004042851D29F8CE009B9702 /* Main.storyboard */,
 				004042881D29F8CE009B9702 /* Assets.xcassets */,
 				0040428A1D29F8CE009B9702 /* LaunchScreen.storyboard */,
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0040428C1D29F8CE009B9702 /* LaunchScreen.storyboard in Resources */,
+				004042B01D29F969009B9702 /* background.jpg in Resources */,
 				004042891D29F8CE009B9702 /* Assets.xcassets in Resources */,
 				004042871D29F8CE009B9702 /* Main.storyboard in Resources */,
 			);
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004042B81D29FD6A009B9702 /* QBPopupMenu.m in Sources */,
 				004042841D29F8CE009B9702 /* ViewController.m in Sources */,
 				004042811D29F8CE009B9702 /* AppDelegate.m in Sources */,
 				0040427E1D29F8CE009B9702 /* main.m in Sources */,
