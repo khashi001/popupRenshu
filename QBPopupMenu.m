@@ -29,6 +29,20 @@ static const NSTimeInterval kQBPopupMenuAnimationDuration = 0.2;
 - (void)showInView:(UIView *)view targetRect:(CGRect)targetRect animated:(BOOL)animated
 {
     
+    if ([self isVisible]) {
+        return;
+    }
+
+    self.view = view;
+    self.targetRect = targetRect;
+
+    UIView *muteInfoView = [[UIView alloc] initWithFrame:CGRectMake(50, 50, 500, 500)];
+    
+    muteInfoView.backgroundColor = [UIColor whiteColor ];
+    
+    [self addSubview:muteInfoView];
+    [self.view bringSubviewToFront:muteInfoView];  //最前面にする
+    
     
     
 }

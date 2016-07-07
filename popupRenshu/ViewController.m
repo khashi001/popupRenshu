@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "QBPopupMenu.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) QBPopupMenu *popupMenu;
+
 
 @end
 
@@ -16,6 +20,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.popupMenu = [[QBPopupMenu alloc]init];
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -26,7 +34,7 @@
 
 - (IBAction)showPopupMenu:(id)sender {
     
-    NSLog(@"showPopupMenu called.");
-    
+    UIButton *button = (UIButton *)sender;
+    [self.popupMenu showInView:self.view targetRect:button.frame animated:YES];
 }
 @end
